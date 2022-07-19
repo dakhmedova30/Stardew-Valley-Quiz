@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Which Stardew Valley Character Are You?</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+  <center>
+
+    <!--
+    <section class="header">
+      <img src="sign.png"
+        width="1100"
+        alt="Stardew Valley written in yellow pieces of wood with a few green leaves sticking out of it."
+    </section>
+    -->
+
+	<header>
+		<h1>Which Stardew Valley Character Are You?</h1>
+		<p id="instr">Note: There are currently only twelve characters available, which are all of the bachelors and bachelorettes in the game. Have fun taking the quiz!</p>
+	</header>
+
+	<main>
+    
+    <!-- QUESTION 1 -->
+    <h2 id="question_one">What is your favorite color?</h2>
+		<div class="question">
+      <div class="flex-container">
+  
+  			<div class="answer-choice">
+  				<img src="1-Color/red.png" alt="A red square.">
+          <br>
+          <center><button onclick="one_disable();" id="red">Red</button></center>
+        </div>
+
+        <div class="answer-choice">
+  				<img src="1-Color/orange.png" alt="An orange square.">
+          <br>
+          <center><button onclick="one_disable();" id="orange">Orange</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/yellow.png" alt="A yellow square.">
+          <br>
+          <center><button onclick="one_disable();" id="yellow">Yellow</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/green.png" alt="A green square.">
+          <br>
+          <center><button onclick="one_disable();" id="green">Green</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/blue.png" alt="A blue square.">
+          <br>
+          <center><button onclick="one_disable();" id="blue">Blue</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/purple.jpg" alt="A purple square.">
+          <br>
+          <center><button onclick="one_disable();" id="purple">Purple</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/pink.png" alt="A pink square.">
+          <br>
+          <center><button onclick="one_disable();" id="pink">Pink</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="1-Color/black.png" alt="A black square.">
+          <br>
+          <center><button onclick="one_disable();" id="black">Black</button></center>
+        </div>
+        
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 2 -->
+    <h2 id="question_two">What type of music do you listen to?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="2-Music/classical.jpg" alt="A piano with sheet music on top of it.">
+          <br>
+          <center><button onclick="two_disable();" id="classical">Classical</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/pop.jpg" alt="A photo of Ariana Grande singing.">
+          <br>
+          <center><button onclick="two_disable();" id="pop">Pop</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/jazz.jpg" alt="A person playing the saxaphone.">
+          <br>
+          <center><button onclick="two_disable();" id="jazz">Jazz</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/rock.jpeg" alt="A person strumming a red electric guitar.">
+          <br>
+          <center><button onclick="two_disable();" id="rock">Rock</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/heavymetal.jpg" alt="Two people strumming beige electric guitars.">
+          <br>
+          <center><button onclick="two_disable();" id="heavymetal">Heavy Metal</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/edm.jpg" alt="Pink headphones resting atop a DJ set.">
+          <br>
+          <center><button onclick="two_disable();" id="edm">EDM</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/indie.jpeg" alt="A person laying down with one foot resting on a radio.">
+          <br>
+          <center><button onclick="two_disable();" id="indie">Indie/Alternative</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="2-Music/workout.jpg" alt="A person jogging while listening to music in their earbuds.">
+          <br>
+          <center><button onclick="two_disable();" id="workout">Workout</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 3 -->
+    <h2 id="question_three">What do you do in your free time?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="3-FreeTime/sports.jpg" alt="An assortment of sporting equipment, including a football, basketball, soccerball, and a tennisball.">
+          <br>
+          <center><button onclick="three_disable();" id="sports">Play Sports</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/instrument.jpg" alt="A person strumming a beige guitar.">
+          <br>
+          <center><button onclick="three_disable();" id="instrument">Play An Instrument</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/music.jpg" alt="A person putting on white headphones.">
+          <br>
+          <center><button onclick="three_disable();" id="music">Listen To Music</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/videogames.jpg" alt="Two people holding Playstation controllers in front of a TV.">
+          <br>
+          <center><button onclick="three_disable();" id="videogames">Play Video Games</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/writing.jpg" alt="A person writing a letter using a quill with a green feather.">
+          <br>
+          <center><button onclick="three_disable();" id="writing">Write Stories</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/pet.jpg" alt="A person petting a gray cat with stripes.">
+          <br>
+          <center><button onclick="three_disable();" id="pet">Spend Time With A Pet</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/outside.jpg" alt="A person with a backpack petting a brown dog in the woods.">
+          <br>
+          <center><button onclick="three_disable();" id="outside">Go Outside</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/drawing.jpg" alt="A person holding a paint brush to a palette with an assortment of colored paints.">
+          <br>
+          <center><button onclick="three_disable();" id="drawing">Drawing</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/photography.jpg" alt="A person with glasses holding up a black camera.">
+          <br>
+          <center><button onclick="three_disable();" id="photography">Photography</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/sewing.jpg" alt="A person sewing a plaid blue cloth with a sewing machine.">
+          <br>
+          <center><button onclick="three_disable();" id="sewing">Sewing</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/learn.jpg" alt="A person pouring a green substance into a beaker, surrounded by more beakers with colorful fluid and several books.">
+          <br>
+          <center><button onclick="three_disable();" id="learn">Learn Something New</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="3-FreeTime/communityservice.jpg" alt="Five people wearing light blue shirts placing their hands on top of each other.">
+          <br>
+          <center><button onclick="three_disable();" id="communityservice">Community Service</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 4 -->
+    <h2 id="question_four">What do you like drinking the most?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="4-Drink/coffee.jpg" alt="A cup of coffee with latte art shaped like a leaf.">
+          <br>
+          <center><button onclick="four_disable();" id="coffee">Coffee</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="4-Drink/tea.jpg" alt="A cup of tea on a table in a transparent cup.">
+          <br>
+          <center><button onclick="four_disable();" id="tea">Tea</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="4-Drink/milk.jpg" alt="A glass of milk being poured from a beaker.">
+          <br>
+          <center><button onclick="four_disable();" id="milk">Milk</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="4-Drink/alcohol.jpg" alt="Two glasses of whiskey with ice cubes.">
+          <br>
+          <center><button onclick="four_disable();" id="alcohol">Alcohol</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="4-Drink/soda.jpg" alt="A red can of Coca-Cola on a table.">
+          <br>
+          <center><button onclick="four_disable();" id="soda">Soda</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="4-Drink/energy.jpg" alt="Four people holding up different colors of the RIOT energy drink.">
+          <br>
+          <center><button onclick="four_disable();" id="energy">Energy Drinks</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 5 -->
+    <h2 id="question_five">What is your most preferred meal?</h2>
+		<div class="question">
+      <div class="flex-container">
+  
+        <div class="answer-choice">
+  				<img src="5-Meal/pizza.jpg" alt="A slice of pizza with olives and green peppers.">
+          <br>
+          <center><button onclick="five_disable();" id="pizza">Pizza</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="5-Meal/burger.jpg" alt="A burger with chicken, pickles, tomatoes, and lettuce inside.">
+          <br>
+          <center><button onclick="five_disable();" id="burger">Burger</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="5-Meal/salad.jpg" alt="A bowl of salad with spinach, avocado, raisins, seeds, and mandarins.">
+          <br>
+          <center><button onclick="five_disable();" id="salad">Salad</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="5-Meal/seafood.jpg" alt="Two freshly baked crab cakes on a plate.">
+          <br>
+          <center><button onclick="five_disable();" id="seafood">Seafood</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="5-Meal/spicyfood.jpg" alt="Green peppers with a chesse filling, also known as pepper poppers.">
+          <br>
+          <center><button onclick="five_disable();" id="spicyfood">Spicy Food</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 6 -->
+    <h2 id="question_six">Which is your favorite sweet/dessert?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="6-Dessert/cake.jpg" alt="A slice of birthday cake with a candle.">
+          <br>
+          <center><button onclick="six_disable();" id="cake">Cake</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="6-Dessert/muffin.jpg" alt="A blueberry muffin surrounded by blueberries.">
+          <br>
+          <center><button onclick="six_disable();" id="muffin">Muffin</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="6-Dessert/doughnuts.jpg" alt="A donut with chocolate frosting on top of a donut with strawberry frosting.">
+          <br>
+          <center><button onclick="six_disable();" id="doughnuts">Doughnuts</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="6-Dessert/lollipop.jpg" alt="Four rainbow swirl candy lollipops.">
+          <br>
+          <center><button onclick="six_disable();" id="lollipop">Lollipop</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="6-Dessert/rockcandy.jpg" alt="A person holding up three sticks of rainbow rock candy.">
+          <br>
+          <center><button onclick="six_disable();" id="rockcandy">Rock Candy</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 7 -->
+    <h2 id="question_seven">What is your aesthetic?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/cottagecore.png" alt="A person in a long light green dress holding assorted colored flowers.">
+          <br>
+          <center><button onclick="seven_disable();" id="cottagecore">Cottagecore</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/royalcore.jpg" alt="A person in an off-the-shoulder cream dress with embroidered flowers.">
+          <br>
+          <center><button onclick="seven_disable();" id="royalcore">Royalcore</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/lightacademia.png" alt="A person in a white dress shirt with a black bow and a beige pleated skirt.">
+          <br>
+          <center><button onclick="seven_disable();" id="lightacademia">Light Academia</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/darkacademia.jpg" alt="A person in a beige dress shirt with a brown vest, belt, and pants.">
+          <br>
+          <center><button onclick="seven_disable();" id="darkacademia">Dark Academia</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/grunge.jpeg" alt="A person in a black shirt with sleeve fishnets, chains, and a black belt and skirt.">
+          <br>
+          <center><button onclick="seven_disable();" id="grunge">Grunge</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/streetwear.jpg" alt="A person with a black hoodie, black cargo pants, and sneakers.">
+          <br>
+          <center><button onclick="seven_disable();" id="streetwear">Streetwear</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="7-Aesthetic/indie.jpg" alt="A person in a green crop top with a green sweater and blue pants that have a smiley face pattern.">
+          <br>
+          <center><button onclick="seven_disable();" id="indiee">Indie</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 8 -->
+    <h2 id="question_eight">Are you an introvert, extrovert, or ambivert?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="8-Person/introvert.jpg" alt="A person with a book drinking out of a white mug and staring in the distance.">
+          <br>
+          <center><button onclick="eight_disable();" id="introvert">Introvert</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="8-Person/extrovert.png" alt="Two people laughing and taking a selfie from a pink phone.">
+          <br>
+          <center><button onclick="eight_disable();" id="extrovert">Extrovert</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="8-Person/ambivert.jpg" alt="A person in a gray cardigan meditating in front of a computer.">
+          <br>
+          <center><button onclick="eight_disable();" id="ambivert">Ambivert</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 9 -->
+    <h2 id="question_nine">Which season is your birthday in?</h2>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="9-Season/spring.jpg" alt="Pink cherry blossoms blooming in spring.">
+          <br>
+          <center><button onclick="nine_disable();" id="spring">Spring</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="9-Season/summer.jpg" alt="A wheat field during a sunset in the summer.">
+          <br>
+          <center><button onclick="nine_disable();" id="summer">Summer</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="9-Season/fall.jpg" alt="Orange and red autumn leaves falling on the ground.">
+          <br>
+          <center><button onclick="nine_disable();" id="fall">Fall</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="9-Season/winter.jpg" alt="Red berries growing on a tree littered with snow.">
+          <br>
+          <center><button onclick="nine_disable();" id="winter">Winter</button></center>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- QUESTION 10 -->
+    <h2 id="question_ten" style="margin-bottom: 0px">Which character do you think you got?</h2>
+    <h3 id="outcome">(This may or may not affect your outcome ¯\_(ツ)_/¯)</h3>
+		<div class="question">
+      <div class="flex-container">
+
+        <div class="answer-choice">
+  				<img src="10-Character/Alex.png" alt="A male with short brown hair and a green jacket with a yellow collar.">
+          <br>
+          <center><button onclick="ten_disable();" id="alex">Alex</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Elliott.png" alt="A male with long orange hair and a red suit with a green tie.">
+          <br>
+          <center><button onclick="ten_disable();" id="elliott">Elliott</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Harvey.png" alt="A male with short brown hair, a mustache, black glasses, and a green suit with a red tie.">
+          <br>
+          <center><button onclick="ten_disable();" id="harvey">Harvey</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Sam.png" alt="A male with medium length blond hair and green headphones with a blue jacket.">
+          <br>
+          <center><button onclick="ten_disable();" id="sam">Sam</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Sebastian.png" alt="A male with medium length black hair and a black hoodie.">
+          <br>
+          <center><button onclick="ten_disable();" id="sebastian">Sebastian</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Shane.png" alt="A male with short black hair, a stubble, and a blue sweater over a green shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="shane">Shane</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Abigail.png" alt="A female with medium length purple hair, a black collar, and a blue jacket over a gray shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="abigail">Abigail</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Emily.png" alt="A female with short blue hair and a red dress shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="emily">Emily</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Haley.png" alt="A female with long blond hair, colorful bracelets, a blue necklace, and a light blue shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="haley">Haley</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Leah.png" alt="A female with long orange hair in a braid, freckles, and a green jacket over a purple shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="leah">Leah</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Maru.png" alt="A female with short brown hair, black glasses, and light blue overalls over a purple shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="maru">Maru</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Penny.png" alt="A female with medium length orange hair in two buns and a yellow dress shirt.">
+          <br>
+          <center><button onclick="ten_disable();" id="penny">Penny</button></center>
+        </div>
+  
+        <div class="answer-choice">
+  				<img src="10-Character/Unknown.png" alt="An empty box with a happy face peaking out.">
+          <br>
+          <center><button onclick="ten_disable();" id="idontknow">I don't know</button></center>
+        </div>
+
+  		</div>
+    </div>
+
+
+    <p id="display_results"></p>
+    <center><button id="submit">Display Results</button></center>
+    <center><button id="restart">Restart</button></center>
+    <h2 id="result"></h2>
+    <h3 id="adding"></h3>
+    <img id="pic" src="" align="left" style="margin-right: 40px">
+    <p id="description"></p>
+
+    
+  </main>
+  </center>
+  </body>
+</html>
